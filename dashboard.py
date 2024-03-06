@@ -10,8 +10,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Data Wrangling
 ## Gathering Data
-file_path = r'C:\DATA EGA\BANGKIT\Project\Proyek Akhir Analisis Data_Ega\hour.csv'
-bike_hour_df = pd.read_csv(file_path, delimiter=",")
+bike_hour_df = pd.read_csv("hour.csv", delimiter=",")
 
 # Menentukan Pertanyaan Bisnis
 st.title("Proyek Analisis Data: Bike Sharing Dataset")
